@@ -1,33 +1,29 @@
 # CV Application
 
-A React + Vite application for building and managing CVs/Resumes.
+A React + Vite application for building and exporting CVs/Resumes.
 
-## Current Progress
+## Features
 
-**Completed:**
+- Multi-step form wizard (4 pages)
+- General details (name, email, phone)
+- Education details with add/remove multiple entries
+- Experience details with add/remove multiple entries
+- Review page with PDF export
+- Form validation
+- Page indicator
 
-- Page navigation system with 4 pages
-- General details form (name, email, phone)
-- Education details form (multiple entries)
-- Experience details form (multiple entries)
+## Tech Stack
 
-**Features:**
+- React 19
+- Vite
+- Tailwind CSS
+-
 
-- Add/remove multiple education entries
-- Add/remove multiple experience entries
-- Form state management with React useState
-- Page indicator component
-
-## Running the project
+## Getting Started
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Pages
-
-1. General Details - Personal information
-2. Education - School name, title of study, date
-3. Experience - Company, position, responsibilities, dates
-4. Review - not completed yet
+Open http://localhost:5173 in your browser.

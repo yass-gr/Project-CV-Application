@@ -11,7 +11,7 @@ export default function GeneralDetailsPage({
     <form
       action=""
       onSubmit={(e) => e.preventDefault()}
-      className="flex flex-col gap-2 items-center my-3"
+      className="flex flex-col gap-2 items-center my-3 "
     >
       <Input
         name={"firstName"}
@@ -45,6 +45,7 @@ export default function GeneralDetailsPage({
         state={genDetails}
         setState={setGenDetails}
       />
+      <br />
       <NavBtns
         currPage={currPage}
         setCurrPage={setCurrPage}

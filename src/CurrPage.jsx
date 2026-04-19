@@ -24,7 +24,8 @@ export default function CurrPage({
           setCurrPage={setCurrPage}
           genDetails={genDetails}
           setGenDetails={setGenDetails}
-        />;
+        />
+        ;
       </>
     );
   }
@@ -39,7 +40,8 @@ export default function CurrPage({
           setCurrPage={setCurrPage}
           educationDetails={educationDetails}
           setEducationDetails={setEducationDetails}
-        />;
+        />
+        ;
       </>
     );
   }
@@ -54,21 +56,22 @@ export default function CurrPage({
           setCurrPage={setCurrPage}
           experienceDetails={experienceDetails}
           setExperienceDetails={setExperienceDetails}
-        />;
+        />
+        ;
       </>
     );
   }
   if (currPage === 4) {
     return (
       <>
-        <h1 className="text-2xl text-gray-600 font-bold text-center">Review</h1>
         <ReviewPage
           currPage={currPage}
           setCurrPage={setCurrPage}
           genDetails={genDetails}
           educationDetails={educationDetails}
           experienceDetails={experienceDetails}
-        />;
+        />
+        ;
       </>
     );
   }
