@@ -1,6 +1,6 @@
 # CV Application
 
-A React + Vite application for building and exporting CVs/Resumes.
+A React application for building and exporting CVs/Resumes.
 
 ## Features
 
