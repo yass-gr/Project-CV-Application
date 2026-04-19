@@ -1,13 +1,17 @@
-import { useState } from "react";
 import Input from "./input";
+import NavBtns from "./NavBtns";
 
-export default function GeneralDetailsPage({}) {
-  const [genDetails, setGenDetails] = useState({});
+export default function GeneralDetailsPage({
+  currPage,
+  setCurrPage,
+  genDetails,
+  setGenDetails,
+}) {
   return (
     <form
       action=""
       onSubmit={(e) => e.preventDefault()}
-      className="flex flex-col gap-2 items-center my-10"
+      className="flex flex-col gap-2 items-center my-3"
     >
       <Input
         name={"firstName"}
@@ -40,6 +44,11 @@ export default function GeneralDetailsPage({}) {
         placeholder={"Number"}
         state={genDetails}
         setState={setGenDetails}
+      />
+      <NavBtns
+        currPage={currPage}
+        setCurrPage={setCurrPage}
+        data={genDetails}
       />
     </form>
   );
