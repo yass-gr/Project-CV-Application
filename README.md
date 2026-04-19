@@ -2,6 +2,8 @@
 
 A React application for building and exporting CVs/Resumes.
 
+preview: https://cvgenerator-omega.vercel.app/
+
 ## Features
 
 - Multi-step form wizard (4 pages)
