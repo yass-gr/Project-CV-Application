@@ -1,18 +1,33 @@
-# React + Vite
+# CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite application for building and managing CVs/Resumes.
 
-Currently, two official plugins are available:
+## Current Progress
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Completed:**
 
-## React Compiler
+- Page navigation system with 4 pages
+- General details form (name, email, phone)
+- Education details form (multiple entries)
+- Experience details form (multiple entries)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+**Features:**
 
-Note: This will impact Vite dev & build performances.
+- Add/remove multiple education entries
+- Add/remove multiple experience entries
+- Form state management with React useState
+- Page indicator component
 
-## Expanding the ESLint configuration
+## Running the project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Pages
+
+1. General Details - Personal information
+2. Education - School name, title of study, date
+3. Experience - Company, position, responsibilities, dates
+4. Review - not completed yet
